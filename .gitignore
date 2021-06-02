@@ -1,0 +1,5 @@
+**/Objects
+**/AutoBackups
+*.meta
+B4A/google-services.json
+B4i/Archive.zip

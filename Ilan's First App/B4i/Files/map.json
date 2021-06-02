@@ -1,0 +1,1808 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "draworder":"topdown",
+         "id":1,
+         "name":"Object Layer 2",
+         "objects":[
+                {
+                 "gid":1,
+                 "height":213,
+                 "id":103,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":215,
+                 "x":24,
+                 "y":375
+                }, 
+                {
+                 "gid":2,
+                 "height":964,
+                 "id":112,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1280,
+                 "x":1.33333333333331,
+                 "y":962.666666666667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "height":10.8755731270588,
+                 "id":23,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":-4.54192748019233,
+                 "type":"x2",
+                 "visible":true,
+                 "width":809.83889514161,
+                 "x":269.532842015516,
+                 "y":240.102863908073
+                }, 
+                {
+                 "height":10,
+                 "id":27,
+                 "name":"moving ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"closeangle",
+                         "type":"int",
+                         "value":12
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"line.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"gravity scale",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"openangle",
+                         "type":"int",
+                         "value":-12
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"width",
+                         "type":"float",
+                         "value":90
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":362,
+                 "x":79.8939393939397,
+                 "y":594.651515151515
+                }, 
+                {
+                 "ellipse":true,
+                 "height":36,
+                 "id":31,
+                 "name":"ball",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":360
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"forceX",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"forceY",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0.1
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"isTouched",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"restitution",
+                         "type":"float",
+                         "value":0.7
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":36,
+                 "x":-8,
+                 "y":-168
+                }, 
+                {
+                 "ellipse":true,
+                 "height":70,
+                 "id":37,
+                 "name":"switch",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"doorid",
+                         "type":"string",
+                         "value":"27"
+                        }, 
+                        {
+                         "name":"draw last",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"close.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"open.png"
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"string",
+                         "value":"65533"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":70,
+                 "x":232,
+                 "y":561.333333333333
+                }, 
+                {
+                 "height":11,
+                 "id":39,
+                 "name":"moving ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"closeangle",
+                         "type":"int",
+                         "value":12
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"line.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"gravity scale",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"openangle",
+                         "type":"int",
+                         "value":-40
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"width",
+                         "type":"float",
+                         "value":-32
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":128,
+                 "x":330.333333333333,
+                 "y":751.333333333333
+                }, 
+                {
+                 "ellipse":true,
+                 "height":70,
+                 "id":40,
+                 "name":"switch",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"doorid",
+                         "type":"string",
+                         "value":"99,39"
+                        }, 
+                        {
+                         "name":"draw last",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"close.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"open.png"
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"string",
+                         "value":"65533"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":70,
+                 "x":254,
+                 "y":685.333333333333
+                }, 
+                {
+                 "height":11.1973220422545,
+                 "id":42,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":-6.92286980067472,
+                 "type":"x2",
+                 "visible":true,
+                 "width":586.834302544508,
+                 "x":487.588043858169,
+                 "y":742.127462545899
+                }, 
+                {
+                 "height":10,
+                 "id":54,
+                 "name":"moving ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"closeangle",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"line.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"openangle",
+                         "type":"int",
+                         "value":-20
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"width",
+                         "type":"float",
+                         "value":90.5
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":270,
+                 "x":334,
+                 "y":914
+                }, 
+                {
+                 "ellipse":true,
+                 "height":70,
+                 "id":55,
+                 "name":"switch",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"doorid",
+                         "type":"string",
+                         "value":"54"
+                        }, 
+                        {
+                         "name":"draw first",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"draw last",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"close.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"open.png"
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"string",
+                         "value":"65533"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":70,
+                 "x":426,
+                 "y":884.5
+                }, 
+                {
+                 "height":10,
+                 "id":56,
+                 "name":"moving ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"closeangle",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"line.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"openangle",
+                         "type":"int",
+                         "value":20
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"width",
+                         "type":"float",
+                         "value":-93.5
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":255.5,
+                 "x":605.5,
+                 "y":914
+                }, 
+                {
+                 "ellipse":true,
+                 "height":70,
+                 "id":57,
+                 "name":"switch",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"doorid",
+                         "type":"string",
+                         "value":"56"
+                        }, 
+                        {
+                         "name":"draw first",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"draw last",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"close.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"open.png"
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"string",
+                         "value":"65533"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":70,
+                 "x":701,
+                 "y":884.5
+                }, 
+                {
+                 "height":767.5,
+                 "id":60,
+                 "name":"forceup",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":169,
+                 "x":1084.33333333333,
+                 "y":192
+                }, 
+                {
+                 "height":88,
+                 "id":61,
+                 "name":"forceright",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":1000,
+                 "x":16,
+                 "y":824
+                }, 
+                {
+                 "height":5,
+                 "id":75,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":1,
+                 "x":1168,
+                 "y":192
+                }, 
+                {
+                 "height":5,
+                 "id":77,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":90,
+                 "type":"x2",
+                 "visible":true,
+                 "width":771.854166666667,
+                 "x":1262.66666666667,
+                 "y":178.8125
+                }, 
+                {
+                 "height":9,
+                 "id":78,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":332,
+                 "x":1,
+                 "y":916
+                }, 
+                {
+                 "height":5,
+                 "id":79,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":-0.272256878534619,
+                 "type":"x2",
+                 "visible":true,
+                 "width":1097.33333333333,
+                 "x":2.6609815352823,
+                 "y":41.2738277922326
+                }, 
+                {
+                 "height":5,
+                 "id":81,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"restitution",
+                         "type":"float",
+                         "value":0.2
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":41.4941022296738,
+                 "type":"x2",
+                 "visible":true,
+                 "width":214.237600188199,
+                 "x":1101.82912689232,
+                 "y":34.6083650240143
+                }, 
+                {
+                 "height":10.3743653612997,
+                 "id":82,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":-6.36477441275354,
+                 "type":"x2",
+                 "visible":true,
+                 "width":592.034229947925,
+                 "x":481.589191790231,
+                 "y":587.65891631327
+                }, 
+                {
+                 "height":11.7181377881331,
+                 "id":83,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":2.48115345883644,
+                 "type":"x2",
+                 "visible":true,
+                 "width":695.885554742198,
+                 "x":12.1352118098211,
+                 "y":419.081139968737
+                }, 
+                {
+                 "height":64,
+                 "id":86,
+                 "name":"venta",
+                 "properties":[
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"venta0.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"venta1.png"
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":100
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":48,
+                 "x":1149,
+                 "y":897
+                }, 
+                {
+                 "height":48,
+                 "id":87,
+                 "name":"venta",
+                 "properties":[
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"venta0h.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"venta1h.png"
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":100
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":64,
+                 "x":0,
+                 "y":850
+                }, 
+                {
+                 "height":11,
+                 "id":99,
+                 "name":"moving ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"closeangle",
+                         "type":"int",
+                         "value":-12
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"line.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"gravity scale",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openangle",
+                         "type":"int",
+                         "value":40
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"width",
+                         "type":"float",
+                         "value":-32
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":128,
+                 "x":121,
+                 "y":752.666666666667
+                }, 
+                {
+                 "height":213.5,
+                 "id":104,
+                 "name":"gear main",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"gear.png"
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":216,
+                 "x":25,
+                 "y":161.5
+                }, 
+                {
+                 "ellipse":true,
+                 "height":93.5,
+                 "id":105,
+                 "name":"gear",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":90,
+                 "x":87.5,
+                 "y":223
+                }, 
+                {
+                 "height":0,
+                 "id":108,
+                 "name":"gear",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-65.1611447607824,
+                         "y":194.320900778558
+                        }, 
+                        {
+                         "x":-51.8629519524595,
+                         "y":205.952785684317
+                        }, 
+                        {
+                         "x":-38.5647591441365,
+                         "y":202.531643064976
+                        }, 
+                        {
+                         "x":7.97891568499377,
+                         "y":45.8433110991668
+                        }, 
+                        {
+                         "x":27.9262048974782,
+                         "y":6.15805671481345
+                        }, 
+                        {
+                         "x":14.6280120891552,
+                         "y":-2.73691409547264
+                        }],
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }],
+                 "rotation":121.07,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":208.866492631113,
+                 "y":338.550107033615
+                }, 
+                {
+                 "height":10,
+                 "id":109,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":218.75,
+                 "x":862,
+                 "y":914
+                }, 
+                {
+                 "height":5,
+                 "id":110,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":90,
+                 "type":"x2",
+                 "visible":true,
+                 "width":601.188,
+                 "x":1080.406,
+                 "y":180.5
+                }, 
+                {
+                 "height":5,
+                 "id":111,
+                 "name":"ground",
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":90,
+                 "type":"x2",
+                 "visible":true,
+                 "width":912.438,
+                 "x":9.98933333333328,
+                 "y":52.75
+                }, 
+                {
+                 "height":0,
+                 "id":113,
+                 "name":"gear",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-65.1611,
+                         "y":194.321
+                        }, 
+                        {
+                         "x":-51.863,
+                         "y":205.953
+                        }, 
+                        {
+                         "x":-38.5648,
+                         "y":202.532
+                        }, 
+                        {
+                         "x":7.97892,
+                         "y":45.8433
+                        }, 
+                        {
+                         "x":27.9262,
+                         "y":6.15806
+                        }, 
+                        {
+                         "x":14.628,
+                         "y":-2.73691
+                        }],
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }],
+                 "rotation":180.989862195733,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":113.20709113671,
+                 "y":368.386333918328
+                }, 
+                {
+                 "height":0,
+                 "id":114,
+                 "name":"gear",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-65.1611,
+                         "y":194.321
+                        }, 
+                        {
+                         "x":-51.863,
+                         "y":205.953
+                        }, 
+                        {
+                         "x":-38.5648,
+                         "y":202.532
+                        }, 
+                        {
+                         "x":7.97892,
+                         "y":45.8433
+                        }, 
+                        {
+                         "x":27.9262,
+                         "y":6.15806
+                        }, 
+                        {
+                         "x":14.628,
+                         "y":-2.73691
+                        }],
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":65533
+                        }],
+                 "rotation":240.140308245742,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":35.9817353113675,
+                 "y":300.671245277831
+                }, 
+                {
+                 "height":0,
+                 "id":115,
+                 "name":"bg",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":"bg"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":640,
+                 "y":480
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":3,
+ "nextobjectid":118,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.2.0",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"images",
+         "spacing":0,
+         "tilecount":2,
+         "tileheight":600,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"gear.png",
+                 "imageheight":152,
+                 "imagewidth":152
+                }, 
+                {
+                 "id":1,
+                 "image":"bg.png",
+                 "imageheight":600,
+                 "imagewidth":800
+                }],
+         "tilewidth":800
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1.2,
+ "width":40
+}

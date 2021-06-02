@@ -1,0 +1,92 @@
+﻿AppType=JavaFX
+Build1=Default,b4j.example
+File1=cars-spritesheet.png
+File10=landscape1.png
+File11=landscape2.png
+File12=landscape3.png
+File13=landscape4.png
+File14=lose.mp3
+File15=objecttypes.json
+File16=pipe.png
+File17=spritesheet.png
+File18=wing.mp3
+File2=click.mp3
+File3=clumsy.png
+File4=GameLayout.bjl
+File5=gameover.png
+File6=getready.png
+File7=ground.png
+File8=hello world with background.json
+File9=hit.mp3
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=jcore
+Library3=jfx
+Library4=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Background
+Module3=|relative|..\Bird
+Module4=|relative|..\Game
+Module5=|relative|..\Pipe
+NumberOfFiles=18
+NumberOfLibraries=4
+NumberOfModules=5
+Version=8.95
+@EndOfDesignText@
+#Region Project Attributes 
+	#MainFormWidth: 800
+	#MainFormHeight: 600
+#End Region
+
+Sub Process_Globals
+	Private fx As JFX
+	Private MainForm As Form
+End Sub
+
+Sub AppStart (Form1 As Form, Args() As String)
+	MainForm = Form1
+	MainForm.Show
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(MainForm)
+End Sub
+
+'Template version: B4J-1.0
+#Region Delegates
+Sub MainForm_FocusChanged (HasFocus As Boolean)
+	B4XPages.Delegate.MainForm_FocusChanged(HasFocus)
+End Sub
+
+Sub MainForm_Resize (Width As Double, Height As Double)
+	B4XPages.Delegate.MainForm_Resize(Width, Height)
+End Sub
+
+Sub MainForm_Closed
+	B4XPages.Delegate.MainForm_Closed
+End Sub
+
+Sub MainForm_CloseRequest (EventData As Event)
+	B4XPages.Delegate.MainForm_CloseRequest(EventData)
+End Sub
+
+Public Sub MainForm_IconifiedChanged (Iconified As Boolean)
+	B4XPages.Delegate.MainForm_IconifiedChanged(Iconified)
+End Sub
+#End Region

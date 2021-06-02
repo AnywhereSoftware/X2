@@ -1,0 +1,857 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "height":220,
+                 "id":13,
+                 "name":"chain 2",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-256.541103158003,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":457.333333333333,
+                 "y":542.666666666667
+                }, 
+                {
+                 "height":220,
+                 "id":14,
+                 "name":"chain 5",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-285.398840105617,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":996.809074525937,
+                 "y":457.038283491497
+                }, 
+                {
+                 "height":220,
+                 "id":15,
+                 "name":"chain 6",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-286.412040439181,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":1206.67090697141,
+                 "y":394.56742225826
+                }, 
+                {
+                 "height":0,
+                 "id":18,
+                 "name":"hinge 2",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 1, chain 2"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":219.333333333333,
+                 "y":518.333333333333
+                }, 
+                {
+                 "height":0,
+                 "id":20,
+                 "name":"hinge 3",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 2, chain 3"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":432.333333333334,
+                 "y":566
+                }, 
+                {
+                 "height":0,
+                 "id":21,
+                 "name":"hinge 5",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 4, chain 5"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":812,
+                 "y":530
+                }, 
+                {
+                 "height":220,
+                 "id":43,
+                 "name":"chain 1",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-252.493004596992,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":268.80272933714,
+                 "y":504.171094707644
+                }, 
+                {
+                 "height":498.666666666667,
+                 "id":44,
+                 "name":"pole 2",
+                 "properties":
+                    {
+                     "draw first":true,
+                     "graphic file 1":"pole.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "draw first":"bool",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":61.3333333333333,
+                 "x":1186.66666666667,
+                 "y":425.333333333333
+                }, 
+                {
+                 "height":485.333,
+                 "id":46,
+                 "name":"pole 1",
+                 "properties":
+                    {
+                     "draw first":true,
+                     "graphic file 1":"pole.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "draw first":"bool",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":61.3333,
+                 "x":28.0000166666667,
+                 "y":444.000166666667
+                }, 
+                {
+                 "height":0,
+                 "id":47,
+                 "name":"hinge 6",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 5, chain 6"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":993.333333333337,
+                 "y":476
+                }, 
+                {
+                 "height":0,
+                 "id":48,
+                 "name":"hinge 1",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, pole 1, chain 1"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":62.6666666666667,
+                 "y":472
+                }, 
+                {
+                 "ellipse":true,
+                 "height":69.3333333333333,
+                 "id":49,
+                 "name":"donut",
+                 "properties":
+                    {
+                     "angle interval":5,
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "density":0.1,
+                     "destroy if invisible":true,
+                     "graphic file 1":"Blue_Donut_7.png",
+                     "time to live (ms)":5000
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "destroy if invisible":"bool",
+                     "graphic file 1":"string",
+                     "time to live (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":75.9999999999999,
+                 "x":233.333333333333,
+                 "y":6.66666666666667
+                }, 
+                {
+                 "height":220,
+                 "id":51,
+                 "name":"chain 4",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-279.958315551835,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":818.475241279209,
+                 "y":510.094399003389
+                }, 
+                {
+                 "height":0,
+                 "id":52,
+                 "name":"hinge 4",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 3, chain 4"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":625.333333333333,
+                 "y":560
+                }, 
+                {
+                 "height":220,
+                 "id":53,
+                 "name":"chain 3",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "density":1,
+                     "graphic file 1":"multicolor_s.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":-268.879556158733,
+                 "type":"x2",
+                 "visible":true,
+                 "width":40,
+                 "x":641.007138522076,
+                 "y":541.438300607161
+                }, 
+                {
+                 "height":0,
+                 "id":54,
+                 "name":"hinge 7",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"revolute, chain 6, pole 2"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1197.33333333333,
+                 "y":414.666666666667
+                }, 
+                {
+                 "ellipse":true,
+                 "height":119.3333,
+                 "id":55,
+                 "name":"donut 2",
+                 "properties":
+                    {
+                     "angle interval":5,
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "density":5,
+                     "destroy if invisible":true,
+                     "graphic file 1":"Blue_Donut_7.png"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "destroy if invisible":"bool",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":120,
+                 "x":260,
+                 "y":751.33335
+                }, 
+                {
+                 "gid":1,
+                 "height":84,
+                 "id":57,
+                 "name":"",
+                 "rotation":14.7406065504451,
+                 "type":"",
+                 "visible":true,
+                 "width":101.275000550692,
+                 "x":102.367670140544,
+                 "y":452.37061095088
+                }, 
+                {
+                 "height":90,
+                 "id":58,
+                 "name":"fence 1",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":16.8078430621776,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":101.121079967599,
+                 "y":355.178001287897
+                }, 
+                {
+                 "height":0,
+                 "id":61,
+                 "name":"weld hinge 1",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 1, fence 1"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":141,
+                 "y":465
+                }, 
+                {
+                 "height":90,
+                 "id":62,
+                 "name":"fence 2",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":13.1180511408537,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":264.05806589369,
+                 "y":409.714543836676
+                }, 
+                {
+                 "height":0,
+                 "id":63,
+                 "name":"weld hinge 2",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 2, fence 2"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":315,
+                 "y":512
+                }, 
+                {
+                 "height":90,
+                 "id":64,
+                 "name":"fence 3",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":0.992989764030973,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":452.290899620551,
+                 "y":447.425003577632
+                }, 
+                {
+                 "height":0,
+                 "id":66,
+                 "name":"weld hinge 3",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 3, fence 3"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":510.666666666667,
+                 "y":532.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":67,
+                 "name":"weld hinge 4",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 4, fence 4"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":714.666666666667,
+                 "y":528
+                }, 
+                {
+                 "height":0,
+                 "id":68,
+                 "name":"weld hinge 5",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 5, fence 5"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":896.666666666667,
+                 "y":484
+                }, 
+                {
+                 "height":0,
+                 "id":69,
+                 "name":"weld hinge 6",
+                 "point":true,
+                 "properties":
+                    {
+                     "tag":"weld, chain 6, fence 6"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1085.33333333333,
+                 "y":418.666666666667
+                }, 
+                {
+                 "height":90,
+                 "id":70,
+                 "name":"fence 4",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":-9.7246507029908,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":623.03758399677,
+                 "y":453.71902961684
+                }, 
+                {
+                 "height":90,
+                 "id":71,
+                 "name":"fence 5",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":-15.4781419743192,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":800.509622470419,
+                 "y":419.974791537739
+                }, 
+                {
+                 "height":90,
+                 "id":72,
+                 "name":"fence 6",
+                 "properties":
+                    {
+                     "angle interval":3,
+                     "antialias":false,
+                     "body type":"dynamic",
+                     "draw first":false,
+                     "draw last":true,
+                     "graphic file 1":"chain.png",
+                     "mask bits":0
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":-16.986449599547,
+                 "type":"x2",
+                 "visible":true,
+                 "width":155,
+                 "x":979.879949303972,
+                 "y":369.02788219263
+                }, 
+                {
+                 "height":46,
+                 "id":73,
+                 "name":"pendulum pivot",
+                 "properties":
+                    {
+                     "graphic file 1":"pole.jpg"
+                    },
+                 "propertytypes":
+                    {
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":65.3333333333333,
+                 "x":461,
+                 "y":49.6666666666667
+                }, 
+                {
+                 "ellipse":true,
+                 "height":69.3333,
+                 "id":74,
+                 "name":"pendulum",
+                 "properties":
+                    {
+                     "angle interval":360,
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "density":0.1,
+                     "destroy if invisible":false,
+                     "graphic file 1":"Blue_Donut_7.png"
+                    },
+                 "propertytypes":
+                    {
+                     "angle interval":"int",
+                     "antialias":"bool",
+                     "body type":"string",
+                     "density":"float",
+                     "destroy if invisible":"bool",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":76,
+                 "x":454.666666666667,
+                 "y":195.33335
+                }, 
+                {
+                 "height":0,
+                 "id":75,
+                 "name":"rope hinge",
+                 "point":true,
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "tag":"rope, pendulum, pendulum pivot"
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":496.333333333333,
+                 "y":77.6666666666667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":76,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.1.6",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"chain",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":82,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"chain.png",
+                 "imageheight":82,
+                 "imagewidth":122
+                }
+            },
+         "tilewidth":122
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1,
+ "width":40
+}

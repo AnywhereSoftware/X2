@@ -1,0 +1,385 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwQEBAAAAgiD\/r25IQAEAAAAAfBkVGAAB",
+         "encoding":"base64",
+         "height":30,
+         "id":3,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":45,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":109.333333333333,
+                 "id":2,
+                 "name":"circle",
+                 "properties":[
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"blue_donut_7.png"
+                        }, 
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":10000
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":112,
+                 "x":204,
+                 "y":-30.6666666666667
+                }, 
+                {
+                 "height":261,
+                 "id":3,
+                 "name":"rectangle 1",
+                 "properties":[
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"density",
+                         "type":"float",
+                         "value":1.2
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic file 3",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":"rectangle"
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":10000
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":58.5,
+                 "x":554.666666666667,
+                 "y":2.66666666666667
+                }, 
+                {
+                 "height":476,
+                 "id":6,
+                 "name":"water",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"gravity scale",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":1436,
+                 "x":0,
+                 "y":484
+                }, 
+                {
+                 "height":0,
+                 "id":7,
+                 "name":"ground",
+                 "polyline":[
+                        {
+                         "x":158,
+                         "y":-22
+                        }, 
+                        {
+                         "x":158,
+                         "y":506
+                        }, 
+                        {
+                         "x":-1274,
+                         "y":512
+                        }, 
+                        {
+                         "x":-1270,
+                         "y":-28
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1274,
+                 "y":448
+                }, 
+                {
+                 "height":215,
+                 "id":8,
+                 "name":"rectangle 2",
+                 "properties":[
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"density",
+                         "type":"float",
+                         "value":0.8
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic file 3",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":"rectangle 2"
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":10000
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":116.5,
+                 "x":690.75,
+                 "y":-4.50000000000001
+                }, 
+                {
+                 "gid":1,
+                 "height":76,
+                 "id":9,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":10000
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":298,
+                 "x":900,
+                 "y":110
+                }, 
+                {
+                 "height":0,
+                 "id":11,
+                 "name":"boat",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":288,
+                         "y":0.5
+                        }, 
+                        {
+                         "x":286.5,
+                         "y":33.5
+                        }, 
+                        {
+                         "x":236,
+                         "y":53.5
+                        }, 
+                        {
+                         "x":81,
+                         "y":54
+                        }, 
+                        {
+                         "x":7,
+                         "y":31.5
+                        }],
+                 "properties":[
+                        {
+                         "name":"angle interval",
+                         "type":"int",
+                         "value":3
+                        }, 
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"boat.png"
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":10000
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":900.5,
+                 "y":43
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":12,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.2.0",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"tileset",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":116,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"boat.png",
+                 "imageheight":116,
+                 "imagewidth":540
+                }],
+         "tilewidth":540
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1.2,
+ "width":45
+}

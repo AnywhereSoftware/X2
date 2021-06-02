@@ -1,0 +1,104 @@
+﻿AppType=JavaFX
+Build1=Default,b4j.example
+File1=1.bjl
+File10=fried.png
+File11=horizontal.png
+File12=kid.png
+File13=laser.png
+File14=Picked Coin Echo 2.wav
+File15=star coin rotate 1.png
+File16=star coin rotate 2.png
+File17=star coin rotate 3.png
+File18=star coin rotate 4.png
+File19=star coin rotate 5.png
+File2=8bit_bomb_explosion.wav
+File20=star coin rotate 6.png
+File21=swamp.png
+File22=walking character.json
+File23=walking.png
+File3=BirdM_0000_Capa.png
+File4=BirdM_0001_Capa.png
+File5=BirdM_0002_Capa.png
+File6=BirdM_0003_Capa.png
+File7=Blue_Donut_7.png
+File8=fireworks head.png
+File9=fireworks tail.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=jcore
+Library3=jfx
+Library4=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Background
+Module3=|relative|..\Fireworks
+Module4=|relative|..\Game
+Module5=|relative|..\Kid
+Module6=|relative|..\MovingScore
+Module7=|relative|..\RotatingBlock
+NumberOfFiles=23
+NumberOfLibraries=4
+NumberOfModules=7
+Version=8.95
+@EndOfDesignText@
+#Region Project Attributes 
+	#MainFormWidth: 800
+	#MainFormHeight: 600 
+#End Region
+
+Sub Process_Globals
+	Private fx As JFX
+	Private MainForm As Form
+End Sub
+
+Sub AppStart (Form1 As Form, Args() As String)
+	MainForm = Form1
+	MainForm.Show
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(MainForm)
+End Sub
+
+'Template version: B4J-1.0
+#Region Delegates
+Sub MainForm_FocusChanged (HasFocus As Boolean)
+	B4XPages.Delegate.MainForm_FocusChanged(HasFocus)
+End Sub
+
+Sub MainForm_Resize (Width As Double, Height As Double)
+	B4XPages.Delegate.MainForm_Resize(Width, Height)
+End Sub
+
+Sub MainForm_Closed
+	B4XPages.Delegate.MainForm_Closed
+End Sub
+
+Sub MainForm_CloseRequest (EventData As Event)
+	B4XPages.Delegate.MainForm_CloseRequest(EventData)
+End Sub
+
+Public Sub MainForm_IconifiedChanged (Iconified As Boolean)
+	B4XPages.Delegate.MainForm_IconifiedChanged(Iconified)
+End Sub
+#End Region

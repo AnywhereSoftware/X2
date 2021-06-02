@@ -1,0 +1,463 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "gid":2,
+                 "height":97.3333333333334,
+                 "id":1,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":90.6666666666666,
+                 "x":559,
+                 "y":909.333333333333
+                }, 
+                {
+                 "gid":1,
+                 "height":68,
+                 "id":3,
+                 "name":"",
+                 "properties":
+                    {
+                     "mask bits":65533
+                    },
+                 "propertytypes":
+                    {
+                     "mask bits":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":74.6666666666667,
+                 "x":43.3333333333333,
+                 "y":155.333333333333
+                }, 
+                {
+                 "height":80,
+                 "id":5,
+                 "name":"enemy 1 template",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"enemy1_1.png",
+                     "graphic file 2":"enemy1_2.png",
+                     "graphic file 3":"explosionpurple.png",
+                     "mask bits":65533,
+                     "switch frame interval (ms)":200
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string",
+                     "graphic file 3":"string",
+                     "mask bits":"int",
+                     "switch frame interval (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":80,
+                 "x":43.6666666666667,
+                 "y":87.3333333333333
+                }, 
+                {
+                 "height":80,
+                 "id":8,
+                 "name":"enemy 2 template",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"enemy2_1.png",
+                     "graphic file 2":"enemy2_2.png",
+                     "graphic file 3":"explosionblue.png",
+                     "mask bits":65533,
+                     "switch frame interval (ms)":200
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string",
+                     "graphic file 3":"string",
+                     "mask bits":"int",
+                     "switch frame interval (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":80,
+                 "x":41,
+                 "y":214
+                }, 
+                {
+                 "height":80,
+                 "id":9,
+                 "name":"enemy 3 template",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"enemy3_1.png",
+                     "graphic file 2":"enemy3_2.png",
+                     "graphic file 3":"explosiongreen.png",
+                     "mask bits":65533,
+                     "switch frame interval (ms)":200
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string",
+                     "graphic file 3":"string",
+                     "mask bits":"int",
+                     "switch frame interval (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":80,
+                 "x":52,
+                 "y":383.333333333333
+                }, 
+                {
+                 "height":0,
+                 "id":10,
+                 "name":"left edge",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-4,
+                         "y":958
+                        }],
+                 "properties":
+                    {
+                     "restitution":0
+                    },
+                 "propertytypes":
+                    {
+                     "restitution":"float"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":4,
+                 "y":2
+                }, 
+                {
+                 "height":0,
+                 "id":11,
+                 "name":"right edge",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-2,
+                         "y":954
+                        }],
+                 "properties":
+                    {
+                     "restitution":0
+                    },
+                 "propertytypes":
+                    {
+                     "restitution":"float"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1278,
+                 "y":0
+                }, 
+                {
+                 "height":38,
+                 "id":12,
+                 "name":"ship laser",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "category bits":4,
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"laser.png",
+                     "is sensor":true
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "category bits":"int",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "is sensor":"bool"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":10.6666666666666,
+                 "x":585,
+                 "y":765
+                }, 
+                {
+                 "height":38,
+                 "id":15,
+                 "name":"enemy laser",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "category bits":2,
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"enemylaser.png",
+                     "is sensor":true
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "category bits":"int",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "is sensor":"bool"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":8,
+                 "x":822,
+                 "y":718
+                }, 
+                {
+                 "height":0,
+                 "id":16,
+                 "name":"ship",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":0.798319327731092,
+                         "y":-53.9457994579946
+                        }, 
+                        {
+                         "x":30.3361344537815,
+                         "y":-53.2168021680217
+                        }, 
+                        {
+                         "x":32.7310924369748,
+                         "y":-89.6666666666666
+                        }, 
+                        {
+                         "x":70.2521008403361,
+                         "y":-87.4796747967479
+                        }, 
+                        {
+                         "x":69.453781512605,
+                         "y":-53.9457994579946
+                        }, 
+                        {
+                         "x":94.2016806722689,
+                         "y":-56.8617886178862
+                        }, 
+                        {
+                         "x":95,
+                         "y":-0.728997289972899
+                        }],
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "fixed rotation":true,
+                     "graphic file 1":"ship.png",
+                     "graphic file 2":"ship with shield.png"
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":554,
+                 "y":906.666666666667
+                }, 
+                {
+                 "height":100,
+                 "id":17,
+                 "name":"shield",
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":200,
+                 "x":88,
+                 "y":655
+                }, 
+                {
+                 "height":100,
+                 "id":19,
+                 "name":"shield",
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":200,
+                 "x":524,
+                 "y":655
+                }, 
+                {
+                 "height":100,
+                 "id":20,
+                 "name":"shield",
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":200,
+                 "x":928,
+                 "y":655
+                }, 
+                {
+                 "gid":3,
+                 "height":53,
+                 "id":21,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":157,
+                 "x":6.66666666666666,
+                 "y":75.3333333333333
+                }, 
+                {
+                 "height":62.6666666666667,
+                 "id":22,
+                 "name":"mystery",
+                 "properties":
+                    {
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "fixed rotation":true,
+                     "graphic file 1":"mystery.png",
+                     "mask bits":65534,
+                     "switch frame interval (ms)":200
+                    },
+                 "propertytypes":
+                    {
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "fixed rotation":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int",
+                     "switch frame interval (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":154.666666666667,
+                 "x":8,
+                 "y":10.6666666666667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":23,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.1.6",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"tileset",
+         "spacing":0,
+         "tilecount":5,
+         "tileheight":152,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"enemy1_1.png",
+                 "imageheight":152,
+                 "imagewidth":156
+                },
+             "1":
+                {
+                 "image":"ship.png",
+                 "imageheight":48,
+                 "imagewidth":50
+                },
+             "2":
+                {
+                 "image":"mystery.png",
+                 "imageheight":93,
+                 "imagewidth":209
+                },
+             "3":
+                {
+                 "image":"laser.png",
+                 "imageheight":15,
+                 "imagewidth":5
+                },
+             "4":
+                {
+                 "image":"enemylaser.png",
+                 "imageheight":15,
+                 "imagewidth":5
+                }
+            },
+         "tilewidth":209
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1,
+ "width":40
+}

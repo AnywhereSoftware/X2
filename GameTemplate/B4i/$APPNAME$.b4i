@@ -1,0 +1,59 @@
+﻿Build1=Default,b4i.example2
+File1=cars-spritesheet.png
+File2=click.mp3
+File3=gamelayout.bil
+File4=hello world with background.json
+File5=spritesheet.png
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=icore
+Library3=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Game
+NumberOfFiles=5
+NumberOfLibraries=3
+NumberOfModules=2
+Version=7.2
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes 
+	#ApplicationLabel: B4i Example
+	#Version: 1.0.0 
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: LandscapeLeft
+	#iPadOrientations: LandscapeLeft
+	#Target: iPhone, iPad
+	#ATSEnabled: True
+	#MinVersion: 8
+#End Region
+#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+Sub Process_Globals
+	Public App As Application
+	Public NavControl As NavigationController
+
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+	NavControl = Nav
+	Dim no As NativeObject = App
+	no.RunMethod("setStatusBarHidden:animated:", Array(True, False))
+	NavControl.NavigationBarVisible = False
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(NavControl)
+End Sub
+
+'Template version: B4i-1.0
+#Region Delegates
+Private Sub Application_Background
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Private Sub Application_Foreground
+	B4XPages.Delegate.Activity_Resume
+End Sub
+#End Region

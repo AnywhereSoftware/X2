@@ -1,0 +1,83 @@
+﻿Build1=Default,b4i.example2
+File1=1.bil
+File10=mario 1.json
+File11=mario_bros.png
+File12=mushroom.png
+File13=powerup.mp3
+File14=small_jump.mp3
+File15=tile_set.png
+File2=big_jump.mp3
+File3=enemies.png
+File4=enemy1.png
+File5=enemy2.png
+File6=fixedsys500c.ttf
+File7=game_over.mp3
+File8=item_objects.png
+File9=kick.mp3
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=icore
+Library3=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Bug
+Module3=|relative|..\Enemy
+Module4=|relative|..\Game
+Module5=|relative|..\Mario
+NumberOfFiles=15
+NumberOfLibraries=3
+NumberOfModules=5
+Version=7.2
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes 
+	#ApplicationLabel: Mario Example
+	#Version: 1.0.0 
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: LandscapeLeft
+	#iPadOrientations: LandscapeLeft
+	#Target: iPhone, iPad
+	#ATSEnabled: True
+	#MinVersion: 8
+#End Region
+#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+#AppFont:fixedsys500c.ttf
+Sub Process_Globals
+	Public App As Application
+	Public NavControl As NavigationController
+
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+	NavControl = Nav
+	Dim no As NativeObject = App
+	no.RunMethod("setStatusBarHidden:animated:", Array(True, False))
+	NavControl.NavigationBarVisible = False
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(NavControl)
+End Sub
+
+'Template version: B4i-1.0
+#Region Delegates
+Private Sub Application_Background
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Private Sub Application_Foreground
+	B4XPages.Delegate.Activity_Resume
+End Sub
+#End Region

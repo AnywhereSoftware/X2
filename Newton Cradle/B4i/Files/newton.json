@@ -1,0 +1,256 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":112,
+                 "id":7,
+                 "name":"marble",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"blue_donut_7.png",
+                     "restitution":1.02,
+                     "tag":"8"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "restitution":"float",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":118,
+                 "x":310,
+                 "y":534
+                }, 
+                {
+                 "height":0,
+                 "id":8,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":360,
+                 "y":148
+                }, 
+                {
+                 "ellipse":true,
+                 "height":112,
+                 "id":9,
+                 "name":"marble",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"blue_donut_7.png",
+                     "restitution":1.02,
+                     "tag":"12"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "restitution":"float",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":118,
+                 "x":447,
+                 "y":536
+                }, 
+                {
+                 "ellipse":true,
+                 "height":112,
+                 "id":10,
+                 "name":"marble",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"blue_donut_7.png",
+                     "restitution":1.02,
+                     "tag":"13"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "restitution":"float",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":118,
+                 "x":583,
+                 "y":536
+                }, 
+                {
+                 "ellipse":true,
+                 "height":112,
+                 "id":11,
+                 "name":"marble",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"blue_donut_7.png",
+                     "restitution":1.02,
+                     "tag":"14"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "restitution":"float",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":118,
+                 "x":719,
+                 "y":534
+                }, 
+                {
+                 "height":0,
+                 "id":12,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":496,
+                 "y":148
+                }, 
+                {
+                 "height":0,
+                 "id":13,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":636,
+                 "y":148
+                }, 
+                {
+                 "height":0,
+                 "id":14,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":780,
+                 "y":148
+                }, 
+                {
+                 "ellipse":true,
+                 "height":112,
+                 "id":15,
+                 "name":"marble",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"blue_donut_7.png",
+                     "restitution":1.02,
+                     "tag":"16"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "restitution":"float",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":118,
+                 "x":1117,
+                 "y":407.333333333333
+                }, 
+                {
+                 "height":0,
+                 "id":16,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":906,
+                 "y":148
+                }, 
+                {
+                 "height":33.3333333333333,
+                 "id":17,
+                 "name":"top",
+                 "properties":
+                    {
+                     "graphic file 1":"line.png"
+                    },
+                 "propertytypes":
+                    {
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":642.666666666667,
+                 "x":309.333333333333,
+                 "y":121.333333333333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":19,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.1.6",
+ "tileheight":32,
+ "tilesets":[],
+ "tilewidth":32,
+ "type":"map",
+ "version":1,
+ "width":40
+}

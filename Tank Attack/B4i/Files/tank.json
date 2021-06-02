@@ -1,0 +1,517 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "height":61,
+                 "id":1,
+                 "name":"ground",
+                 "properties":
+                    {
+                     "graphic file 1":"ground.png"
+                    },
+                 "propertytypes":
+                    {
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":1585,
+                 "x":0,
+                 "y":897
+                }, 
+                {
+                 "height":0,
+                 "id":2,
+                 "name":"ground",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-2,
+                         "y":896
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1,
+                 "y":-1
+                }, 
+                {
+                 "height":0,
+                 "id":3,
+                 "name":"ground",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-2,
+                         "y":896
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":1283,
+                 "y":22
+                }, 
+                {
+                 "gid":8,
+                 "height":108.333333333333,
+                 "id":4,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":194,
+                 "x":56,
+                 "y":889
+                }, 
+                {
+                 "height":116,
+                 "id":6,
+                 "name":"tank",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"tank0.png",
+                     "graphic file 2":"tank1.png",
+                     "graphic file 3":"tank2.png",
+                     "graphic file 4":"tank3.png",
+                     "mask bits":65535
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string",
+                     "graphic file 3":"string",
+                     "graphic file 4":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":199,
+                 "x":54,
+                 "y":778
+                }, 
+                {
+                 "height":0,
+                 "id":7,
+                 "name":"hinge",
+                 "point":true,
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":187,
+                 "y":824.67
+                }, 
+                {
+                 "height":22.6666666666666,
+                 "id":8,
+                 "name":"kane",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "draw first":true,
+                     "graphic file 1":"kane.png",
+                     "mask bits":65533
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "draw first":"bool",
+                     "graphic file 1":"string",
+                     "mask bits":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":121.333333333333,
+                 "x":177.333333333333,
+                 "y":808
+                }, 
+                {
+                 "height":80,
+                 "id":10,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":816
+                }, 
+                {
+                 "height":0,
+                 "id":11,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1,
+                 "x":1184,
+                 "y":1018
+                }, 
+                {
+                 "height":80,
+                 "id":13,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":734
+                }, 
+                {
+                 "height":80,
+                 "id":14,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":651
+                }, 
+                {
+                 "height":80,
+                 "id":15,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":571
+                }, 
+                {
+                 "height":80,
+                 "id":16,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":408
+                }, 
+                {
+                 "height":80,
+                 "id":17,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":489
+                }, 
+                {
+                 "height":80,
+                 "id":18,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":329
+                }, 
+                {
+                 "height":80,
+                 "id":19,
+                 "name":"block",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "graphic file 1":"box1.png"
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "graphic file 1":"string"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":82,
+                 "x":931,
+                 "y":249
+                }, 
+                {
+                 "ellipse":true,
+                 "height":32,
+                 "id":20,
+                 "name":"bullet",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "category bits":2,
+                     "density":1,
+                     "destroy if invisible":true,
+                     "draw last":true,
+                     "graphic file 1":"blue_donut_7.png",
+                     "time to live (ms)":3000
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "category bits":"int",
+                     "density":"float",
+                     "destroy if invisible":"bool",
+                     "draw last":"bool",
+                     "graphic file 1":"string",
+                     "time to live (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":32,
+                 "x":233,
+                 "y":222
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":22,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.1.6",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"images",
+         "spacing":0,
+         "tilecount":11,
+         "tileheight":768,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"box1.png",
+                 "imageheight":73,
+                 "imagewidth":69
+                },
+             "1":
+                {
+                 "image":"box2.png",
+                 "imageheight":73,
+                 "imagewidth":69
+                },
+             "10":
+                {
+                 "image":"tank3.png",
+                 "imageheight":135,
+                 "imagewidth":240
+                },
+             "2":
+                {
+                 "image":"explosion.png",
+                 "imageheight":90,
+                 "imagewidth":90
+                },
+             "3":
+                {
+                 "image":"ground.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                },
+             "4":
+                {
+                 "image":"kane.png",
+                 "imageheight":32,
+                 "imagewidth":70
+                },
+             "5":
+                {
+                 "image":"Sky.jpg",
+                 "imageheight":768,
+                 "imagewidth":1024
+                },
+             "6":
+                {
+                 "image":"soldier.png",
+                 "imageheight":78,
+                 "imagewidth":62
+                },
+             "7":
+                {
+                 "image":"tank0.png",
+                 "imageheight":135,
+                 "imagewidth":240
+                },
+             "8":
+                {
+                 "image":"tank1.png",
+                 "imageheight":135,
+                 "imagewidth":240
+                },
+             "9":
+                {
+                 "image":"tank2.png",
+                 "imageheight":135,
+                 "imagewidth":240
+                }
+            },
+         "tilewidth":1024
+        }, 
+        {
+         "columns":0,
+         "firstgid":12,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"chain",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":82,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/..\/..\/Joints 1\/B4J\/Files\/chain.png",
+                 "imageheight":82,
+                 "imagewidth":122
+                }
+            },
+         "tilewidth":122
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1,
+ "width":40
+}

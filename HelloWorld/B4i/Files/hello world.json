@@ -1,0 +1,130 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "height":0,
+                 "id":1,
+                 "name":"ground",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":13.3333333333333,
+                         "y":273.333333333333
+                        }, 
+                        {
+                         "x":1258.66666666667,
+                         "y":266.666666666667
+                        }, 
+                        {
+                         "x":1276,
+                         "y":-53.3333333333334
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":0,
+                 "y":650
+                }, 
+                {
+                 "ellipse":true,
+                 "height":109.333333333333,
+                 "id":2,
+                 "name":"circle",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "graphic file 1":"Blue_Donut_7.png",
+                     "time to live (ms)":5000
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "graphic file 1":"string",
+                     "time to live (ms)":"int"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":112,
+                 "x":204,
+                 "y":-30.6666666666667
+                }, 
+                {
+                 "height":213,
+                 "id":3,
+                 "name":"rectangle",
+                 "properties":
+                    {
+                     "antialias":true,
+                     "body type":"dynamic",
+                     "destroy if invisible":true,
+                     "graphic file 1":"rectangle.png",
+                     "graphic file 2":"rectangle 2.png",
+                     "graphic file 3":"rectangle 3.png",
+                     "horizontal symmetry":true,
+                     "switch frame interval (ms)":1000,
+                     "time to live (ms)":5000,
+                     "vertical symmetry":true
+                    },
+                 "propertytypes":
+                    {
+                     "antialias":"bool",
+                     "body type":"string",
+                     "destroy if invisible":"bool",
+                     "graphic file 1":"string",
+                     "graphic file 2":"string",
+                     "graphic file 3":"string",
+                     "horizontal symmetry":"bool",
+                     "switch frame interval (ms)":"int",
+                     "time to live (ms)":"int",
+                     "vertical symmetry":"bool"
+                    },
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":106.5,
+                 "x":554.666666666667,
+                 "y":2.66666666666667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":6,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.1.6",
+ "tileheight":32,
+ "tilesets":[],
+ "tilewidth":32,
+ "type":"map",
+ "version":1,
+ "width":40
+}

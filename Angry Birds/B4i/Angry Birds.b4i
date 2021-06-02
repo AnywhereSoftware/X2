@@ -1,0 +1,82 @@
+﻿Build1=Default,b4i.angrybirds
+File1=176731__yottasounds__wild-pig-008.wav
+File10=small_helmet.png
+File11=whoosh.wav
+File12=wooden_block_1.png
+File13=wooden_block_2.png
+File14=wooden_block_3.png
+File15=wooden_block_4.png
+File16=wooden_block_5.png
+File2=31623__srehpog__light-crate-smash2.wav
+File3=angry birds.json
+File4=angrybirdcharacter.png
+File5=background.jpg
+File6=gamelayout.bil
+File7=ground.png
+File8=hook.png
+File9=hook2.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=icore
+Library3=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Background
+Module3=|relative|..\Game
+NumberOfFiles=16
+NumberOfLibraries=3
+NumberOfModules=3
+Version=7.2
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes 
+	#ApplicationLabel: Angry Birds
+	#Version: 1.0.0 
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: LandscapeLeft
+	#iPadOrientations: LandscapeLeft
+	#Target: iPhone, iPad
+	#ATSEnabled: True
+	#MinVersion: 8
+#End Region
+#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+Sub Process_Globals
+	Public App As Application
+	Public NavControl As NavigationController
+
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+	NavControl = Nav
+	Dim no As NativeObject = App
+	no.RunMethod("setStatusBarHidden:animated:", Array(True, False))
+	NavControl.NavigationBarVisible = False
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(NavControl)
+End Sub
+
+'Template version: B4i-1.0
+#Region Delegates
+Private Sub Application_Background
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Private Sub Application_Foreground
+	B4XPages.Delegate.Activity_Resume
+End Sub
+#End Region

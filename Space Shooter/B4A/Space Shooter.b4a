@@ -1,0 +1,190 @@
+﻿Build1=Default,b4a.example
+File1=bolt_gold.png
+File10=meteorBrown_small1.png
+File11=meteorBrown_small2.png
+File12=meteorBrown_tiny1.png
+File13=missile.png
+File14=pew.wav
+File15=playerShip1_orange.png
+File16=regularExplosion00.png
+File17=regularExplosion01.png
+File18=regularExplosion02.png
+File19=regularExplosion03.png
+File2=expl3.wav
+File20=regularExplosion04.png
+File21=regularExplosion05.png
+File22=regularExplosion06.png
+File23=regularExplosion07.png
+File24=regularExplosion08.png
+File25=shield_gold.png
+File26=sonicExplosion00.png
+File27=sonicExplosion01.png
+File28=sonicExplosion02.png
+File29=sonicExplosion03.png
+File3=expl6.wav
+File30=sonicExplosion04.png
+File31=sonicExplosion05.png
+File32=sonicExplosion06.png
+File33=sonicExplosion07.png
+File34=sonicExplosion08.png
+File35=space shooter.json
+File36=starfield.png
+File4=gamelayout.bal
+File5=laserRed16.png
+File6=meteorBrown_big1.png
+File7=meteorBrown_big2.png
+File8=meteorBrown_med1.png
+File9=meteorBrown_med3.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=core
+Library3=x2
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Game
+Module3=Starter
+NumberOfFiles=36
+NumberOfLibraries=3
+NumberOfModules=3
+Version=10.7
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Hello World
+	#VersionCode: 1
+	#VersionName: 
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: True
+	#IncludeTitle: false
+#End Region
+
+#BridgeLogger: True
+Sub Process_Globals
+	Public ActionBarHomeClicked As Boolean
+End Sub
+
+Sub Globals
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	SetImmersiveMode
+	Dim pm As B4XPagesManager
+	pm.Initialize(Activity)
+End Sub
+
+Private Sub SetImmersiveMode
+	Activity_WindowFocusChanged(True)
+	Dim lv As LayoutValues = GetRealSize
+	Dim jo As JavaObject = Activity
+	jo.RunMethod("setBottom", Array(lv.Height))
+	jo.RunMethod("setRight", Array(lv.Width))
+	Activity.Height = lv.Height
+	Activity.Width = lv.Width
+End Sub
+
+Sub GetRealSize As LayoutValues
+	Dim lv As LayoutValues
+	Dim ctxt As JavaObject
+	ctxt.InitializeContext
+	Dim display As JavaObject = ctxt.RunMethodJO("getSystemService", Array("window")).RunMethod("getDefaultDisplay", Null)
+	Dim point As JavaObject
+	point.InitializeNewInstance("android.graphics.Point", Null)
+	display.RunMethod("getRealSize", Array(point))
+	lv.Width = point.GetField("x")
+	lv.Height = point.GetField("y")
+	lv.Scale = 100dip / 100
+	Return lv
+End Sub
+
+Sub Activity_WindowFocusChanged(HasFocus As Boolean)
+	If HasFocus Then
+		Try
+			Dim jo As JavaObject = Activity
+			Sleep(300)
+			jo.RunMethod("setSystemUiVisibility", Array As Object(5894)) '3846 - non-sticky
+		Catch
+			'Log(LastException) 'This can cause another error
+		End Try 'ignore
+		
+	End If
+End Sub
+
+'Template version: B4A-1.01
+#Region Delegates
+
+Sub Activity_ActionBarHomeClick
+	ActionBarHomeClicked = True
+	B4XPages.Delegate.Activity_ActionBarHomeClick
+	ActionBarHomeClicked = False
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	Return B4XPages.Delegate.Activity_KeyPress(KeyCode)
+End Sub
+
+Sub Activity_Resume
+	B4XPages.Delegate.Activity_Resume
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Sub Activity_PermissionResult (Permission As String, Result As Boolean)
+	B4XPages.Delegate.Activity_PermissionResult(Permission, Result)
+End Sub
+
+Sub Create_Menu (Menu As Object)
+	B4XPages.Delegate.Create_Menu(Menu)
+End Sub
+
+#if Java
+public boolean _onCreateOptionsMenu(android.view.Menu menu) {
+	 processBA.raiseEvent(null, "create_menu", menu);
+	 return true;
+	
+}
+#End If
+#End Region
+
+'Program code should go into B4XMainPage and other pages.

@@ -1,0 +1,121 @@
+﻿Build1=Default,b4i.example.spaceshooter
+File1=bolt_gold.png
+File10=meteorBrown_small1.png
+File11=meteorBrown_small2.png
+File12=meteorBrown_tiny1.png
+File13=missile.png
+File14=pew.wav
+File15=playerShip1_orange.png
+File16=regularExplosion00.png
+File17=regularExplosion01.png
+File18=regularExplosion02.png
+File19=regularExplosion03.png
+File2=expl3.wav
+File20=regularExplosion04.png
+File21=regularExplosion05.png
+File22=regularExplosion06.png
+File23=regularExplosion07.png
+File24=regularExplosion08.png
+File25=shield_gold.png
+File26=sonicExplosion00.png
+File27=sonicExplosion01.png
+File28=sonicExplosion02.png
+File29=sonicExplosion03.png
+File3=expl6.wav
+File30=sonicExplosion04.png
+File31=sonicExplosion05.png
+File32=sonicExplosion06.png
+File33=sonicExplosion07.png
+File34=sonicExplosion08.png
+File35=space shooter.json
+File36=starfield.png
+File4=gamelayout.bil
+File5=laserRed16.png
+File6=meteorBrown_big1.png
+File7=meteorBrown_big2.png
+File8=meteorBrown_med1.png
+File9=meteorBrown_med3.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=icore
+Library3=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Game
+NumberOfFiles=36
+NumberOfLibraries=3
+NumberOfModules=2
+Version=7.2
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes 
+	#ApplicationLabel: Space Shootercehsoter
+	#Version: 1.0.0 
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: Portrait
+	#iPadOrientations: Portrait
+	#Target: iPhone, iPad
+	#ATSEnabled: True
+	#MinVersion: 8
+#End Region
+#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+Sub Process_Globals
+	Public App As Application
+	Public NavControl As NavigationController
+
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+	NavControl = Nav
+	Dim no As NativeObject = App
+	no.RunMethod("setStatusBarHidden:animated:", Array(True, False))
+	NavControl.NavigationBarVisible = False
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(NavControl)
+End Sub
+
+'Template version: B4i-1.0
+#Region Delegates
+Private Sub Application_Background
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Private Sub Application_Foreground
+	B4XPages.Delegate.Activity_Resume
+End Sub
+#End Region

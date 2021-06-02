@@ -1,0 +1,667 @@
+{ "height":30,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==",
+         "encoding":"base64",
+         "height":30,
+         "id":1,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Background Layer",
+         "objects":[
+                {
+                 "gid":1,
+                 "height":960,
+                 "id":9,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1274,
+                 "x":2,
+                 "y":960
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":3,
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "gid":2,
+                 "height":95,
+                 "id":28,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":95,
+                 "x":377,
+                 "y":103
+                }, 
+                {
+                 "height":0,
+                 "id":10,
+                 "name":"ground",
+                 "polyline":[
+                        {
+                         "x":-150000,
+                         "y":0
+                        }, 
+                        {
+                         "x":150000,
+                         "y":0
+                        }],
+                 "properties":[
+                        {
+                         "name":"restitution",
+                         "type":"float",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":12,
+                 "y":841
+                }, 
+                {
+                 "ellipse":true,
+                 "height":106,
+                 "id":15,
+                 "name":"donut",
+                 "properties":[
+                        {
+                         "name":"antialias",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"Blue_Donut_7.png"
+                        }, 
+                        {
+                         "name":"graphic name",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":106,
+                 "x":372,
+                 "y":4
+                }, 
+                {
+                 "height":82,
+                 "id":16,
+                 "name":"bird",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"BirdM_0000_Capa.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"BirdM_0001_Capa.png"
+                        }, 
+                        {
+                         "name":"graphic file 3",
+                         "type":"string",
+                         "value":"BirdM_0002_Capa.png"
+                        }, 
+                        {
+                         "name":"graphic file 4",
+                         "type":"string",
+                         "value":"BirdM_0003_Capa.png"
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"nearest neighbor scaling",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":100
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":163.333333333333,
+                 "x":28,
+                 "y":102
+                }, 
+                {
+                 "ellipse":true,
+                 "height":86,
+                 "id":20,
+                 "name":"coin",
+                 "properties":[
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"star coin rotate 1.png"
+                        }, 
+                        {
+                         "name":"graphic file 2",
+                         "type":"string",
+                         "value":"star coin rotate 2.png"
+                        }, 
+                        {
+                         "name":"graphic file 3",
+                         "type":"string",
+                         "value":"star coin rotate 3.png"
+                        }, 
+                        {
+                         "name":"graphic file 4",
+                         "type":"string",
+                         "value":"star coin rotate 4.png"
+                        }, 
+                        {
+                         "name":"graphic file 5",
+                         "type":"string",
+                         "value":"star coin rotate 5.png"
+                        }, 
+                        {
+                         "name":"graphic file 6",
+                         "type":"string",
+                         "value":"star coin rotate 6.png"
+                        }, 
+                        {
+                         "name":"graphic keep aspect ratio",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"is sensor",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"switch frame interval (ms)",
+                         "type":"int",
+                         "value":100
+                        }, 
+                        {
+                         "name":"time to live (ms)",
+                         "type":"int",
+                         "value":6000
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":87,
+                 "x":848,
+                 "y":180
+                }, 
+                {
+                 "gid":5,
+                 "height":71,
+                 "id":30,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":110,
+                 "x":36,
+                 "y":182
+                }, 
+                {
+                 "gid":4,
+                 "height":74,
+                 "id":31,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":79,
+                 "x":852,
+                 "y":259
+                }, 
+                {
+                 "gid":3,
+                 "height":97,
+                 "id":34,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":388,
+                 "x":775.666666666667,
+                 "y":832.333333333333
+                }, 
+                {
+                 "height":104,
+                 "id":35,
+                 "name":"horizontal",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"horizontal.png"
+                        }, 
+                        {
+                         "name":"restitution",
+                         "type":"float",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":396,
+                 "x":773.333333333333,
+                 "y":731.333333333333
+                }, 
+                {
+                 "gid":7,
+                 "height":340,
+                 "id":38,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":138,
+                 "x":260.666666666667,
+                 "y":841.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":39,
+                 "name":"kid",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-69.3333333333333,
+                         "y":8
+                        }, 
+                        {
+                         "x":-78.6666666666667,
+                         "y":309.333333333333
+                        }, 
+                        {
+                         "x":-17.3333333333333,
+                         "y":330.666666666667
+                        }, 
+                        {
+                         "x":52,
+                         "y":313.333333333333
+                        }, 
+                        {
+                         "x":52,
+                         "y":9.33333333333326
+                        }],
+                 "properties":[
+                        {
+                         "name":"allow sleep",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"fixed rotation",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"walking.png"
+                        }, 
+                        {
+                         "name":"graphic sheet: rows, columns",
+                         "type":"string",
+                         "value":"3, 2"
+                        }, 
+                        {
+                         "name":"nearest neighbor scaling",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"restitution",
+                         "type":"float",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":0,
+                 "x":341.333333333333,
+                 "y":508
+                }, 
+                {
+                 "height":70.6666666666667,
+                 "id":40,
+                 "name":"fried",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"kinematic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"fried.png"
+                        }, 
+                        {
+                         "name":"horizontal symmetry",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"mask bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"vertical symmetry",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":126.666666666667,
+                 "x":209.333333333333,
+                 "y":145.333333333333
+                }, 
+                {
+                 "gid":8,
+                 "height":55.6666666666667,
+                 "id":42,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":124.666666666667,
+                 "x":210.333333333333,
+                 "y":209.333333333333
+                }, 
+                {
+                 "height":94,
+                 "id":43,
+                 "name":"fireworks head",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"draw last",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"fixed rotation",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"fireworks head.png"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":46,
+                 "x":543,
+                 "y":724
+                }, 
+                {
+                 "height":521,
+                 "id":44,
+                 "name":"fireworks tail",
+                 "properties":[
+                        {
+                         "name":"body type",
+                         "type":"string",
+                         "value":"dynamic"
+                        }, 
+                        {
+                         "name":"category bits",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"destroy if invisible",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"fixed rotation",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"friction",
+                         "type":"float",
+                         "value":0
+                        }, 
+                        {
+                         "name":"graphic file 1",
+                         "type":"string",
+                         "value":"fireworks tail.png"
+                        }],
+                 "rotation":0,
+                 "type":"x2",
+                 "visible":true,
+                 "width":46,
+                 "x":542,
+                 "y":821
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":45,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.2.0",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"swamp",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":400,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"swamp.png",
+                 "imageheight":400,
+                 "imagewidth":800
+                }],
+         "tilewidth":800
+        }, 
+        {
+         "columns":0,
+         "firstgid":2,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"not used at runtime",
+         "spacing":0,
+         "tilecount":8,
+         "tileheight":400,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"Blue_Donut_7.png",
+                 "imageheight":183,
+                 "imagewidth":183
+                }, 
+                {
+                 "id":1,
+                 "image":"horizontal.png",
+                 "imageheight":50,
+                 "imagewidth":200
+                }, 
+                {
+                 "id":2,
+                 "image":"star coin rotate 1.png",
+                 "imageheight":90,
+                 "imagewidth":89
+                }, 
+                {
+                 "id":3,
+                 "image":"BirdM_0000_Capa.png",
+                 "imageheight":233,
+                 "imagewidth":364
+                }, 
+                {
+                 "id":5,
+                 "image":"kid.png",
+                 "imageheight":166,
+                 "imagewidth":101
+                }, 
+                {
+                 "id":6,
+                 "image":"fried.png",
+                 "imageheight":129,
+                 "imagewidth":270
+                }, 
+                {
+                 "id":7,
+                 "image":"fireworks head.png",
+                 "imageheight":65,
+                 "imagewidth":31
+                }, 
+                {
+                 "id":8,
+                 "image":"fireworks tail.png",
+                 "imageheight":400,
+                 "imagewidth":31
+                }],
+         "tilewidth":364
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":1.2,
+ "width":40
+}
