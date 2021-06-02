@@ -1,4 +1,5 @@
-{ "height":25,
+{ "compressionlevel":-1,
+ "height":25,
  "infinite":false,
  "layers":[
         {
@@ -1473,7 +1474,7 @@
  "nextobjectid":78,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.2.0",
+ "tiledversion":"1.6.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -1488,13 +1489,9 @@
          "margin":0,
          "name":"ttt",
          "spacing":0,
-         "tilecount":10,
+         "tilecount":9,
          "tileheight":262,
          "tiles":[
-                {
-                 "id":0,
-                 "image":"Angry_Birds_1.png"
-                }, 
                 {
                  "id":1,
                  "image":"angrybirdcharacter.png",
@@ -1566,6 +1563,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.2,
+ "version":"1.6",
  "width":50
 }
