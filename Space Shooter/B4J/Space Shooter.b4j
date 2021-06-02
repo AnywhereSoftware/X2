@@ -85,8 +85,8 @@ NumberOfModules=2
 Version=8.95
 @EndOfDesignText@
 #Region Project Attributes 
-	#MainFormWidth: 800
-	#MainFormHeight: 600
+	#MainFormWidth: 600
+	#MainFormHeight: 800
 #End Region
 
 Sub Process_Globals
