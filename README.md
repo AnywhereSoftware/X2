@@ -5,3 +5,5 @@ Some of the resources were downloaded from: https://opengameart.org/ as well as 
 
 The examples are used for educational purposes. 
 Make sure to check the resources licenses if you want to use them for commercial purposes.
+
+More information here: https://www.b4x.com/android/forum/threads/xui2d-x2-v2-0-2021.131279/
