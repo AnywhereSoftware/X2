@@ -1,15 +1,17 @@
 ﻿AppType=JavaFX
 Build1=Default,b4j.example
-File1=ch003.png
-File2=GameLayout.bjl
-File3=hello world with background.json
-File4=hello world with background.tiled-session
-File5=spritesheet.png
+File1=cars-spritesheet.png
+File2=click.mp3
+File3=GameLayout.bjl
+File4=hello world with background.json
+File5=Main.bjl
+File6=spritesheet.png
 FileGroup1=Default Group
 FileGroup2=Default Group
 FileGroup3=Default Group
 FileGroup4=Default Group
 FileGroup5=Default Group
+FileGroup6=Default Group
 Group=Default Group
 Library1=b4xpages
 Library2=jcore
@@ -17,9 +19,10 @@ Library3=jfx
 Library4=x2
 Module1=|relative|..\B4XMainPage
 Module2=|relative|..\Game
-NumberOfFiles=5
+Module3=|relative|..\GamePage
+NumberOfFiles=6
 NumberOfLibraries=4
-NumberOfModules=2
+NumberOfModules=3
 Version=9
 @EndOfDesignText@
 #Region Project Attributes 
