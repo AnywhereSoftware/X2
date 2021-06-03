@@ -1,0 +1,32 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "character.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hello world with background.json#chr": {
+            "scaleInEditor": 1
+        },
+        "hello world with background.json#tileset1": {
+            "dynamicWrapping": false,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "D:/Users/H/Documents/B4X/X2/Touchy/Shared Files",
+    "openFiles": [
+    ],
+    "project": "hello world with background.json",
+    "recentFiles": [
+        "character.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}

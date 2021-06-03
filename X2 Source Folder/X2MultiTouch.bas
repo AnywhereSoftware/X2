@@ -151,7 +151,6 @@ Private Sub Gestures_Touch(View As Object, PointerID As Int, Action As Int, X As
 	Select Action
 		Case gd.ACTION_DOWN, gd.ACTION_POINTER_DOWN
 			'New Point is assigned to the new touch
-			NewPointerId = PointerID
 			fingers.Put(PointerID, CreateX2Touch(X, Y, PointerID))
 		Case gd.ACTION_POINTER_UP, gd.ACTION_UP
 			If fingers.ContainsKey(PointerID) Then
