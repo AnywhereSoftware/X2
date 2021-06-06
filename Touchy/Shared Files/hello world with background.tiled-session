@@ -4,6 +4,12 @@
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json#ttt": {
+            "scaleInEditor": 1
+        },
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json": {
             "scale": 1.082109375,
             "selectedLayer": 0,
@@ -19,11 +25,17 @@
             "scaleInDock": 1
         }
     },
+    "last.imagePath": "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files",
     "openFiles": [
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json"
     ],
     "project": "",
     "recentFiles": [
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json"
-    ]
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 42,
+        "width": 85
+    }
 }

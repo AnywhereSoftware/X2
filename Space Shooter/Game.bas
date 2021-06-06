@@ -65,6 +65,7 @@ Public Sub Start
 	Wait For (ShowMessage("Get Ready...")) Complete (Success As Boolean)
 	If MyIndex <> StartIndex Then Return
 	X2.Reset
+	Multitouch.ResetState
 	Dim ratio As Float = ivForeground.Width / ivForeground.Height
 	WorldWidth = 6
 	WorldHeight = WorldWidth / ratio
