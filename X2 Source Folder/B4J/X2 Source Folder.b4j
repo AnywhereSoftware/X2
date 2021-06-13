@@ -34,7 +34,7 @@ Module9=|relative|..\X2TileMap
 NumberOfFiles=5
 NumberOfLibraries=10
 NumberOfModules=10
-Version=8.95
+Version=9
 @EndOfDesignText@
 #Region Project Attributes 
 	#MainFormWidth: 800

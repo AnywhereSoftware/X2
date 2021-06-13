@@ -1,0 +1,254 @@
+﻿Build1=Default,b4i.example2
+File1=Blue_Donut_7.png
+File10=map_0x6.png
+File100=map_9x5.png
+File101=map_9x6.png
+File102=small_map.gif
+File11=map_10x0.png
+File12=map_10x1.png
+File13=map_10x2.png
+File14=map_10x3.png
+File15=map_10x4.png
+File16=map_10x5.png
+File17=map_10x6.png
+File18=map_11x0.png
+File19=map_11x1.png
+File2=gamelayout.bil
+File20=map_11x2.png
+File21=map_11x3.png
+File22=map_11x4.png
+File23=map_11x5.png
+File24=map_11x6.png
+File25=map_12x0.png
+File26=map_12x1.png
+File27=map_12x2.png
+File28=map_12x3.png
+File29=map_12x4.png
+File3=hello world with background.json
+File30=map_12x5.png
+File31=map_12x6.png
+File32=map_13x0.png
+File33=map_13x1.png
+File34=map_13x2.png
+File35=map_13x3.png
+File36=map_13x4.png
+File37=map_13x5.png
+File38=map_13x6.png
+File39=map_1x0.png
+File4=map_0x0.png
+File40=map_1x1.png
+File41=map_1x2.png
+File42=map_1x3.png
+File43=map_1x4.png
+File44=map_1x5.png
+File45=map_1x6.png
+File46=map_2x0.png
+File47=map_2x1.png
+File48=map_2x2.png
+File49=map_2x3.png
+File5=map_0x1.png
+File50=map_2x4.png
+File51=map_2x5.png
+File52=map_2x6.png
+File53=map_3x0.png
+File54=map_3x1.png
+File55=map_3x2.png
+File56=map_3x3.png
+File57=map_3x4.png
+File58=map_3x5.png
+File59=map_3x6.png
+File6=map_0x2.png
+File60=map_4x0.png
+File61=map_4x1.png
+File62=map_4x2.png
+File63=map_4x3.png
+File64=map_4x4.png
+File65=map_4x5.png
+File66=map_4x6.png
+File67=map_5x0.png
+File68=map_5x1.png
+File69=map_5x2.png
+File7=map_0x3.png
+File70=map_5x3.png
+File71=map_5x4.png
+File72=map_5x5.png
+File73=map_5x6.png
+File74=map_6x0.png
+File75=map_6x1.png
+File76=map_6x2.png
+File77=map_6x3.png
+File78=map_6x4.png
+File79=map_6x5.png
+File8=map_0x4.png
+File80=map_6x6.png
+File81=map_7x0.png
+File82=map_7x1.png
+File83=map_7x2.png
+File84=map_7x3.png
+File85=map_7x4.png
+File86=map_7x5.png
+File87=map_7x6.png
+File88=map_8x0.png
+File89=map_8x1.png
+File9=map_0x5.png
+File90=map_8x2.png
+File91=map_8x3.png
+File92=map_8x4.png
+File93=map_8x5.png
+File94=map_8x6.png
+File95=map_9x0.png
+File96=map_9x1.png
+File97=map_9x2.png
+File98=map_9x3.png
+File99=map_9x4.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup100=Default Group
+FileGroup101=Default Group
+FileGroup102=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup72=Default Group
+FileGroup73=Default Group
+FileGroup74=Default Group
+FileGroup75=Default Group
+FileGroup76=Default Group
+FileGroup77=Default Group
+FileGroup78=Default Group
+FileGroup79=Default Group
+FileGroup8=Default Group
+FileGroup80=Default Group
+FileGroup81=Default Group
+FileGroup82=Default Group
+FileGroup83=Default Group
+FileGroup84=Default Group
+FileGroup85=Default Group
+FileGroup86=Default Group
+FileGroup87=Default Group
+FileGroup88=Default Group
+FileGroup89=Default Group
+FileGroup9=Default Group
+FileGroup90=Default Group
+FileGroup91=Default Group
+FileGroup92=Default Group
+FileGroup93=Default Group
+FileGroup94=Default Group
+FileGroup95=Default Group
+FileGroup96=Default Group
+FileGroup97=Default Group
+FileGroup98=Default Group
+FileGroup99=Default Group
+Group=Default Group
+Library1=b4xpages
+Library2=icore
+Library3=x2
+Module1=|relative|..\B4XMainPage
+Module2=|relative|..\Game
+Module3=|relative|..\LargeBackground
+NumberOfFiles=102
+NumberOfLibraries=3
+NumberOfModules=3
+Version=7.2
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes 
+	#ApplicationLabel: Large Map
+	#Version: 1.0.0 
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: LandscapeLeft
+	#iPadOrientations: LandscapeLeft
+	#Target: iPhone, iPad
+	#ATSEnabled: True
+	#MinVersion: 8
+#End Region
+#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+Sub Process_Globals
+	Public App As Application
+	Public NavControl As NavigationController
+
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+	NavControl = Nav
+	Dim no As NativeObject = App
+	no.RunMethod("setStatusBarHidden:animated:", Array(True, False))
+	NavControl.NavigationBarVisible = False
+	Dim PagesManager As B4XPagesManager
+	PagesManager.Initialize(NavControl)
+End Sub
+
+'Template version: B4i-1.0
+#Region Delegates
+Private Sub Application_Background
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Private Sub Application_Foreground
+	B4XPages.Delegate.Activity_Resume
+End Sub
+#End Region
