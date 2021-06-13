@@ -18,7 +18,7 @@ Module3=Starter
 NumberOfFiles=4
 NumberOfLibraries=3
 NumberOfModules=3
-Version=10.7
+Version=10.85
 @EndOfDesignText@
 #Region  Project Attributes 
 	#ApplicationLabel: Hello World

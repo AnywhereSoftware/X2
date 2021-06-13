@@ -157,6 +157,11 @@
                         }],
                  "properties":[
                         {
+                         "name":"allow sleep",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"body type",
                          "type":"string",
                          "value":"dynamic"
@@ -216,7 +221,7 @@
          "margin":0,
          "name":"ttt",
          "spacing":0,
-         "tilecount":144,
+         "tilecount":70,
          "tileheight":44,
          "tilewidth":130
         }],

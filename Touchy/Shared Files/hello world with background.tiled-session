@@ -1,13 +1,23 @@
 {
-    "activeFile": "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json",
+    "activeFile": "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 558,
+                "y": 460.66666666666663
+            }
         },
         "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json#ttt": {
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json": {
@@ -27,10 +37,11 @@
     },
     "last.imagePath": "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files",
     "openFiles": [
-        "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json"
+        "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json"
     ],
     "project": "",
     "recentFiles": [
+        "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json",
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json"
     ],
     "tileset.embedInMap": true,
