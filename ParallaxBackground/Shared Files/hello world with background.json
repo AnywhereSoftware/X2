@@ -1,0 +1,27 @@
+{ "compressionlevel":-1,
+ "height":15,
+ "infinite":false,
+ "layers":[
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Object Layer 1",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":14,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.6.0",
+ "tileheight":64,
+ "tilesets":[],
+ "tilewidth":64,
+ "type":"map",
+ "version":"1.6",
+ "width":20
+}

@@ -10,60 +10,49 @@ Sub Class_Globals
 	Public world As B2World
 	Public Ground As X2BodyWrapper
 	Private ivForeground As B4XView
+	Public ivBackground As B4XView
 	Public lblStats As B4XView
 	Public TileMap As X2TileMap
 	Public Const ObjectLayer As String = "Object Layer 1"
 	Private PanelForTouch As B4XView
 	Private Multitouch As X2MultiTouch
 	Private sound As X2SoundPool
-	Private Background As LargeBackground
-	'the ratio should match the map ratio
-	Public TotalWidth = 2000, TotalHeight = 1000 As Float
-	Public ivBackground As B4XView
+	Private Parallax As ParallaxBackground
 End Sub
 
 'The example files are located in the Shared Files folder and in each of the projects Files folder. In most cases you will want to delete all these files, except of the layout files.
 Public Sub Initialize (Parent As B4XView)
 	Parent.LoadLayout("GameLayout")
 	world.Initialize("world", world.CreateVec2(0, 0))
-	lblStats.TextColor = xui.Color_Black
 	X2.Initialize(Me, ivForeground, world)
-	
-	Dim WorldWidth As Float = 200 'meters
-	'The game fills the screen
+	Dim WorldWidth As Float = 10 'meters
 	Dim WorldHeight As Float = WorldWidth * Parent.Height / Parent.Width
 	X2.ConfigureDimensions(world.CreateVec2(WorldWidth / 2, WorldHeight / 2), WorldWidth)
 	'comment to disable debug drawing
-'	X2.EnableDebugDraw
-	TileMap.Initialize(X2, File.DirAssets, "hello world with background.json", Null)
-	'The tile map is made of a single tile, as we are not using the tiles feature.
-	TileMap.SetSingleTileDimensionsInMeters(TotalWidth , TotalHeight)
-	'Update the world center based on the map size
-	SetWorldCenter
+	'X2.EnableDebugDraw
+	TileMap.Initialize(X2, File.DirAssets, "hello world with background.json", ivBackground)
+	'We want the tiles to be square. Otherwise we will have issues with rotated tiles.
+	Dim TileSize As Int = Min(X2.MainBC.mWidth / TileMap.TilesPerRow, X2.MainBC.mHeight / TileMap.TilesPerColumn)
+	TileMap.SetSingleTileDimensionsInBCPixels(TileSize, TileSize)
 	TileMap.PrepareObjectsDef(ObjectLayer)
-	Dim layer As X2ObjectsLayer = TileMap.Layers.Get(ObjectLayer)
-	For Each o As X2TileObjectTemplate In layer.ObjectsById.Values
-		TileMap.CreateObject(o)
-	Next
 	Multitouch.Initialize(B4XPages.MainPage, Array(PanelForTouch))
 	sound.Initialize
-	Background.Initialize(Me, "map", "png", TotalWidth, TotalHeight, 7, 14)
+	Parallax.Initialize(Me, "layer", "png", 7)
 End Sub
 
-Private Sub SetWorldCenter
-	X2.UpdateWorldCenter(X2.CreateVec2(500, 500))
+Public Sub Resize
+	X2.ImageViewResized
 End Sub
 
 Public Sub Start
 	Multitouch.ResetState
-	X2.Start	
+	X2.Start
 End Sub
 
-'Same keys handling as in the TilesMap example
 Private Sub HandleKeys
 	Dim v As B2Vec2 = X2.ScreenAABB.Center
-	Dim delta As Float = X2.TimeStepMs / 5
-	Dim RightDown, LeftDown, UpDown, DownDown As Boolean
+	Dim delta As Float = X2.TimeStepMs / 50
+	Dim RightDown, LeftDown, UpDown, DownDown As Boolean 'ignore (UpDown / DownDown are not used)
 	#if B4J
 	LeftDown = Multitouch.Keys.Contains("Left")
 	RightDown = Multitouch.Keys.Contains("Right")
@@ -82,36 +71,18 @@ Private Sub HandleKeys
 	Else If LeftDown Then
 		v.X = v.X - delta
 	End If
-	If UpDown Then
-		v.Y = v.y + delta
-	Else If DownDown Then
-		v.y = v.y - delta
-	End If
-	v = ClipScreenCenterToMapArea(v)
 	If v.Equals(X2.ScreenAABB.Center) = False Then
 		X2.UpdateWorldCenter(v)
 	End If
 End Sub
 
-Sub ClipScreenCenterToMapArea (v As B2Vec2) As B2Vec2
-	Dim ScreenHalfWidth As Float = X2.ScreenAABB.Width / 2
-	Dim ScreenHalfHeight As Float = X2.ScreenAABB.Height / 2
-	v.X = Max(ScreenHalfWidth, Min(TotalWidth - ScreenHalfWidth, v.X))
-	v.Y = Max(ScreenHalfHeight, Min(TotalHeight - ScreenHalfHeight, v.Y))
-	Return v
-End Sub
-
-Public Sub Resize
-	X2.ImageViewResized
-End Sub
-
 Public Sub Tick (GS As X2GameStep)
 	HandleKeys
-	Background.Tick(GS)
+	Parallax.Tick(GS)
 End Sub
 
 Public Sub DrawingComplete
-	Background.DrawComplete
+	Parallax.DrawComplete
 End Sub
 
 'Return True to stop the game loop

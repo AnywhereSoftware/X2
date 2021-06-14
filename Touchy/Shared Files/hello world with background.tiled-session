@@ -1,5 +1,5 @@
 {
-    "activeFile": "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json",
+    "activeFile": "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files/hello world with background.json",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -20,8 +20,20 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files/hello world with background.json": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 842,
+                "y": 318.5
+            }
+        },
         "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files/hello world with background.json#map": {
-            "dynamicWrapping": true
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "C:/Users/H/Documents/B4X/X2/ParallaxBackground/Shared Files/hello world with background.json#tileset1": {
+            "dynamicWrapping": false
         },
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json": {
             "scale": 1.082109375,
@@ -40,10 +52,11 @@
     },
     "last.imagePath": "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files",
     "openFiles": [
-        "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json"
+        "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files/hello world with background.json"
     ],
     "project": "",
     "recentFiles": [
+        "C:/Users/H/Documents/B4X/X2/LargeBackground/Shared Files/hello world with background.json",
         "C:/Users/H/Documents/B4X/X2/Breakout/Shared Files/hello world with background.json",
         "C:/Users/H/Documents/B4X/X2/Touchy/B4i/Files/hello world with background.json"
     ],
