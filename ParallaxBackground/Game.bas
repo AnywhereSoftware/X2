@@ -20,6 +20,8 @@ Sub Class_Globals
 	Private Parallax As ParallaxBackground
 End Sub
 
+'Images source: https://opengameart.org/content/parallax-2d-backgrounds
+
 'The example files are located in the Shared Files folder and in each of the projects Files folder. In most cases you will want to delete all these files, except of the layout files.
 Public Sub Initialize (Parent As B4XView)
 	Parent.LoadLayout("GameLayout")
